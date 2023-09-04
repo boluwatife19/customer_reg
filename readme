@@ -1,0 +1,84 @@
+Customer Registration Site
+Customer Registration Site
+
+Table of Contents
+Description
+Features
+Technologies Used
+Getting Started
+Usage
+
+Description
+Welcome to the Customer Registration Site! This web application is designed to allow customers to register, log in, and access their unique customer ID card. Customers can also check their current rank within the company's customer level program. The site is built using PHP, PHPMyAdmin for database management, and Bootstrap for a clean and responsive user interface.
+
+As the creator of this application, I wanted to provide a user-friendly and efficient platform for customers to interact with our company, view their registration details, and track their progress within our customer level program.
+
+Features
+User Registration: Customers can create an account by providing their name, email, password, contact number, and the number of company goods they have purchased.
+
+Login: Registered users can log in securely using their email and password.
+
+Customer ID Card: Upon successful login, customers can access their personalized customer ID card, which includes their name, customer ID, rank within the company's customer level program, and contact details.
+
+Rank Calculation: The application calculates a customer's rank based on the number of company goods they have purchased. Ranks include "New Customer," "Intermediate Customer," and "VIP CLIENT."
+
+Profile Update: Registered users have the option to update their profile information, including their name, email, number of purchases, and contact number.
+
+Password Update: Users can change their passwords for added security.
+
+Logout: Users can log out of their accounts to protect their data.
+
+Technologies Used
+PHP: Used for server-side scripting and backend logic.
+PHPMyAdmin: Manages the site's MySQL database.
+Bootstrap: Provides a responsive and visually appealing user interface.
+HTML and CSS: Used for structuring the site and styling elements.
+Getting Started
+To run this application locally, follow these steps:
+
+Clone the Repository: Clone this repository to your local machine using the following command:
+
+git clone https://github.com/your-username/customer-registration-site.git
+Database Setup: Import the provided SQL database file into PHPMyAdmin to set up the required tables and data.
+
+Configuration: Update the database connection details in the connect.php file to match your local environment. Modify the following lines:
+
+
+$db_host = 'your-database-host';
+$db_name = 'your-database-name';
+$user_name = 'your-username';
+$user_password = 'your-password';
+Web Server: Use a local web server (e.g., XAMPP, WAMP, or MAMP) to serve the PHP files.
+
+Access the Site: Open a web browser and navigate to http://localhost/customer-registration-site/pages/home.php to access the site.
+
+Usage
+Registration:
+
+Click on the "Register" link on the homepage.
+Fill out the registration form with your name, email, password, contact number, and the number of company goods you have purchased.
+Click "Register" to create your account.
+Login:
+
+Click on the "Login" link on the homepage.
+Enter your email and password.
+Click "Login" to access your customer ID card and account details.
+Customer ID Card:
+
+After logging in, you can view your customer ID card, which displays your name, customer ID, rank, and contact information.
+Profile Update:
+
+Click "Update Profile" to modify your name, email, number of purchases, and contact number.
+Click "Update Now" to save the changes.
+Password Update:
+
+Click "Change Password" to update your password.
+Enter your old password, new password, and confirm the new password.
+Click "Update Password" to change your password.
+Logout:
+
+To log out, click the "Logout" button to secure your account.
+
+Thank you for using the Customer Registration Site! If you have any questions or encounter any issues, please feel free to contact us.
+
+This README was authored by Aregbesola Paul and provides an overview of the Customer Registration Site and how to use it.
